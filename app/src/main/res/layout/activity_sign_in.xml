@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:padding="25dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SignInActivity">
+
+    <EditText
+            android:id="@+id/edit_text_email"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/edit_text_password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/button_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In" />
+
+    <TextView
+            android:id="@+id/text_view_or"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="or sign in using other method"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+
+    <Button
+            android:id="@+id/button_sign_in_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F53737"
+            android:textColor="#fff"
+            android:text="Sign in Google"
+            android:layout_marginBottom="10dp"/>
+
+    <Button
+            android:id="@+id/button_sign_in_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F51B5"
+            android:textColor="#fff"
+            android:text="Sign in Facebook"/>
+
+</LinearLayout>

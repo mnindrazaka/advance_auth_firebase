@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "348583052247",
+    "firebase_url": "https://advanceauthfirebase.firebaseio.com",
+    "project_id": "advanceauthfirebase",
+    "storage_bucket": "advanceauthfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348583052247:android:f085e5acbe644a1cb8c192",
+        "android_client_info": {
+          "package_name": "com.example.advanceauthfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348583052247-vrhn1ju8chimtcdknggr85ter6gvnsp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.advanceauthfirebase",
+            "certificate_hash": "2d32815120b93e93e650e4dbaf843e9c0e6885d6"
+          }
+        },
+        {
+          "client_id": "348583052247-tpofie1kd1hhomoapjnveao22q269gcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBweCOU_HaxPInEsw5Er70lxWO5GNBhshc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348583052247-tpofie1kd1hhomoapjnveao22q269gcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
